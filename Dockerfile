@@ -11,3 +11,5 @@ RUN echo "Helooooo"
 RUN apt-get install -y ruby ruby-dev rubygems build-essential
 RUN gem install fastlane -NV
 RUN npm install -g tifastlane
+
+CMD tifast playsend -a alpha
